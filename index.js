@@ -1,0 +1,44 @@
+document.querySelectorAll('.home').forEach(link=>{
+    link.addEventListener('click',function(e)
+    {
+        e.preventDefault();
+        document.querySelector('.homes').scrollIntoView(
+            {
+                behaviour:'smooth'
+            }
+        )
+    })
+})
+document.querySelectorAll('.about').forEach(link=>{
+    link.addEventListener('click',function(e)
+    {
+        e.preventDefault();
+        document.querySelector('.abouts').scrollIntoView(
+            {
+                behaviour:'smooth'
+            }
+        )
+    })
+})
+document.querySelectorAll('.skill').forEach(link=>{
+    link.addEventListener('click',function(e)
+    {
+        e.preventDefault();
+        document.querySelector('.skills').scrollIntoView(
+            {
+                behaviour:'smooth'
+            }
+        )
+    })
+})
+document.querySelectorAll('.contact').forEach(link=>{
+    link.addEventListener('click',function(e)
+    {
+        e.preventDefault();
+        document.querySelector('.contacts').scrollIntoView(
+            {
+                behaviour:'smooth'
+            }
+        )
+    })
+})
