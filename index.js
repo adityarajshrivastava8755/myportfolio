@@ -1,44 +1,50 @@
-document.querySelectorAll('.home').forEach(link=>{
-    link.addEventListener('click',function(e)
+var lengthONavbar= document.querySelectorAll(".c").length;
+for(var i=0;i<lengthONavbar;i++)
+{
+    document.querySelectorAll(".c")[i].addEventListener("click",function(e)
     {
-        e.preventDefault();
-        document.querySelector('.homes').scrollIntoView(
-            {
-                behaviour:'smooth'
-            }
-        )
+        var clickevent=e.target.innerHTML;
+        switch(clickevent)
+        {
+            case "Home":
+                e.preventDefault()
+                document.querySelector(".homes").scrollIntoView(
+                    {
+                        behaviour:'smooth'
+                    }
+                )
+                break;
+            
+            case "Contact":
+                e.preventDefault()
+                document.querySelector(".contacts").scrollIntoView(
+                    {
+                        behaviour:'smooth'
+                    }
+                )
+                break;
+            
+            case "About":
+            e.preventDefault()
+                document.querySelector(".abouts").scrollIntoView(
+                    {
+                        behaviour:'smooth'
+                    }
+                )
+                break;
+            
+            case "Skill":
+                e.preventDefault()
+                document.querySelector(".skills").scrollIntoView(
+                    {
+                        behaviour:'smooth'
+                    }
+                )
+                break;
+            
+        }
     })
-})
-document.querySelectorAll('.about').forEach(link=>{
-    link.addEventListener('click',function(e)
-    {
-        e.preventDefault();
-        document.querySelector('.abouts').scrollIntoView(
-            {
-                behaviour:'smooth'
-            }
-        )
-    })
-})
-document.querySelectorAll('.skill').forEach(link=>{
-    link.addEventListener('click',function(e)
-    {
-        e.preventDefault();
-        document.querySelector('.skills').scrollIntoView(
-            {
-                behaviour:'smooth'
-            }
-        )
-    })
-})
-document.querySelectorAll('.contact').forEach(link=>{
-    link.addEventListener('click',function(e)
-    {
-        e.preventDefault();
-        document.querySelector('.contacts').scrollIntoView(
-            {
-                behaviour:'smooth'
-            }
-        )
-    })
-})
+}
+
+
+ 
