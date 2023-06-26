@@ -16,6 +16,7 @@ body{
 
 ul
 {
+    margin-left: 150px;
     display: flex;
     list-style: none;
     justify-content:center;
@@ -29,8 +30,9 @@ ul
 
 img
 {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
 
     
 }
@@ -38,7 +40,7 @@ img
 {  
     position:fixed;
     display:flex;
-    justify-content:space-between;
+   
     align-items: center; 
     top:0;
     left :0;
@@ -53,34 +55,35 @@ img
 }
 .navs
 {
-   margin-right: 30px;
+   margin-right: 40px;
+   color:firebrick;
    
  }
  .homes
 {   
     position:relative;
     margin-top: 40px;
-    
-    background-size: cover;
     height:600px;
     z-index: 0;
   
 }  
 .abouts
 {
-    margin:80px 80px;
+   margin:100px 100px;
    padding-top: 60px;
    height:600px;
    border:2px solid black;
    border-radius: 40px;
    box-shadow:10px 10px 10px black;
-   background-color: aliceblue;
+   background-color:orange;
     
 }
 .abouts h1
 {
     
     text-align: center;
+    color:indigo;
+    font-family: 'Courier New', Courier, monospace;
   
 }
 .abouts p
@@ -88,7 +91,7 @@ img
     margin: 100px 50px 0px 50px;
     padding-bottom: 100px;
    font-size: larger;
-   font-style: normal;
+   
    font-weight:lighter;
    line-height: 2;
     
@@ -96,17 +99,19 @@ img
 .skills
 {
     
-    margin:80px 80px;
-   padding-top: 60px;
+    margin:100px 300px;
+   padding-top: 100px;
    height:600px;
    border:2px solid black;
    border-radius: 40px;
-   box-shadow:10px 10px 10px black;
-   background-color: rgb(166, 188, 206);
+   box-shadow:3px 3px 1px red;
+   background-color: orange;
 }
 .skills h1{
     text-align: center;
     margin-bottom:80px;
+    color:indigo;
+    font-family: 'Courier New', Courier, monospace;
 }
 .skills form table,th{
     border:1px solid white;
@@ -130,12 +135,16 @@ img
     margin-right: auto;
     margin-left: auto;
     margin-top: 100px;
+    margin-bottom: 100px;
     align-items: center;
-    background-color: aliceblue;
+    background-color:orange;
+    border-radius:20px;
 }
 .contacts h1{
     text-align: center;
     margin-bottom: 20px;
+     color:indigo;
+    font-family: 'Courier New', Courier, monospace;
 }
  .contacts table
 {   
@@ -150,6 +159,7 @@ img
     text-align: center;
     font-size: 20px;
     width:fit-content;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 .rows
@@ -162,7 +172,7 @@ img
      position :absolute;
    margin-top: 50px;
     left :100px;  
-    top:100px;
+    top:200px;
 }
 
 .homes img{
