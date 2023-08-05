@@ -7,8 +7,8 @@
     /* Define the number of columns for different screen sizes using media queries */
     grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
     margin-bottom: 250px;
-    margin-left: auto;
-    margin-right: auto;
+    width:100%;
+   
 }
 
 .card {
@@ -21,7 +21,8 @@
     flex-direction:column;
     justify-content: center;
     /* Add some margin and padding */
-    margin-left: 40px;                                                                                                                     
+    
+                                                                                                                      
     padding: 10px;
     /* Add some box shadow and border radius */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
