@@ -127,11 +127,13 @@
   .abouts h1 {
     text-align: center;
     font-size: 36px;
+    margin-bottom: 50px ;
   }
   
   /* Styling the about paragraph */
   .abouts p {
-    font-size: 18px;
+    font-size: 24px;
+    line-height: 1.5;
   }
   
   /* Adding some animation to the about section */
@@ -204,5 +206,216 @@
   button:hover {
     background-color: #555;
   }
+  
+  
+  /* Reset the default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set the global font family */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the navbar */
+  #navbar {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    height: 80px;
+  }
+  
+  /* Style the logo image */
+  #navbar img {
+    width: 100px;
+    margin-left: 20px;
+  }
+  
+  /* Style the navbar list */
+  #navbar ul {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+  }
+  
+  /* Style the navbar links */
+  #navbar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  /* Add some margin to the first link */
+  .left-margin {
+    margin-left: 20px;
+  }
+  
+  /* Change the color of the current link */
+  .c {
+    color: yellow;
+  }
+  
+  /* Add some hover effect to the links */
+  #navbar a:hover {
+    background-color: #555;
+  }
+  
+  /* Style the home section */
+  .homes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: calc(100vh - 80px);
+  }
+  
+  /* Style the intro text */
+  .intro {
+    max-width: 500px;
+  }
+  
+  /* Style the intro heading */
+  .intro h1 {
+    font-size: 48px;
+  }
+  
+  /* Style the intro subheading */
+  .intro h3 {
+    font-size: 24px;
+  }
+  
+  /* Style the home image */
+  .homes img {
+    width: 300px;
+  }
+  
+  /* Style the about section */
+  .abouts {
+    padding: 40px;
+  }
+  
+  /* Style the about heading */
+  .abouts h1 {
+    font-size: 36px;
+  }
+  
+  /* Style the about paragraph */
+  .abouts p {
+    font-size: 18px;
+  }
+  /* /* Importing a custom font from Google Fonts */
+  @import url("https://fonts.googleapis.com/css?family=Lora:400");
+  
+  /* Setting the font family of all elements */
+  * {
+    font-family: "Lora", serif;
+  }
+  
+  /* Removing the outline of all elements on focus */
+  *:focus {
+    outline: none;
+  }
+  
+  /* Setting the background color of the body */
+  body {
+    background-color: #f0f0f0;
+  }
+  
+  /* Styling the about section */
+  .abouts {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    margin-bottom: 250px;
+   
+  }
+  
+  /* Styling the about heading */
+  .abouts h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px ;
+  }
+  
+  /* Styling the about paragraph */
+  .abouts p {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+  
+  /* Adding some animation to the about section */
+  
+  
+  
+  
+  
+  /* Styling the contacts section */
+  .contacts {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Styling the contacts heading */
+  .contacts h1 {
+    text-align: center;
+    font-size: 36px;
+  }
+  
+  /* Styling the form element */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Styling the table element */
+  table {
+    width: 100%;
+  }
+  
+  /* Styling the rows element */
+  .rows {
+    display: flex;
+  }
+  
+  /* Styling the label element */
+  .label {
+    width: 30%;
+    padding: 10px;
+  }
+  
+  /* Styling the input and textarea elements */
+  input, textarea {
+    width: 70%;
+    padding: 10px;
+    border: none;
+  }
+  
+  /* Adding some margin to the button element */
+  button {
+    margin-left: auto;
+  }
+  
+  /* Styling the button element */
+  button {
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Adding some hover effect to the button element */
+  button:hover {
+    background-color: #555;
+  }
+  
   
   
